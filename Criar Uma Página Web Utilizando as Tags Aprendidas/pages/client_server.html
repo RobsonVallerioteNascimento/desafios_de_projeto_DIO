@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    </head>
+    <body>
+        <h1 id="inicio">Entendendo comunicação Client X Server</h1>
+        <p>
+            Informar um pouco da história do computador, surgimento da internet e entender como funciona toda a comunicação quando você acessa uma página web ou utiliza um aplicativo. 
+        </p>
+        <hr />
+        <h2>Índice</h2>
+        <ol>
+            <li><strong>Etapa 1 - História da Web</strong></li>
+                <ul>
+                    <li><a href="computadores">Primeiros Computadores</a></li>
+                    <li><a href="#internet">Internet - Como surgiu</a></li>
+                    <li><a href="#nomes">Grandes nomes envolvidos</a></li>
+                </ul>
+            <li><strong>Etapa 2 - O que são Clients</strong></li>
+                <ul>
+                    <li><a href="#client">Conceito de Client no “linguajar” web</a></li>
+                    <li><a href="#navegadores">Falando sobre navegadores</a></li>
+                    <li><a href="#aplicacoes">Aplicações Web</a></li>
+                    <li><a href="#dispositivos">Dispositivos móveis</a></li>
+                </ul>
+            <li><strong>Etapa 3 - O que são Servers</strong></li>
+                <ul>
+                    <li><a href="#servidores">Sobre Servidores</a></li>
+                    <li><a href="#hardwares">Sobre hardwares e softwares em servidores</a></li>
+                    <li><a href="#tipos">Tipos de servidores</a></li>
+                    <li><a href="#hospedagem">Hospedagem de sites</a></li>
+                </ul>
+            <li><strong>Etapa 4 - Sobre linguagens de programação web</strong>
+                <ul>
+                    <li><a href="#linguagem">O que é linguagem de programação</a></li>
+                    <li><a href="#linguagem_server">Linguagem Server-side</a></li>
+                    <li><a href="#linguagem_client">Linguagem Client-side</a></li>
+                    <li><a href="#html">Afinal, HTML é linguagem de programação?</a></li>
+                </ul>
+            </li>
+        </ol>
+        <hr>
+      
+        <h2 id="computadores">Primeiros Computadores</h2>
+        <small><a href="#inicio"><< voltar</a></small>
+
+        <p>
+            Essa linha do tempo dos primeiros computadores apresenta os dispositivos que foram responsáveis diretamente pela evolução dos computadores como conhecemos hoje. 
+        </p>
+
+        <h3>1<sup>a</sup> Geração</h3>
+
+        <p>
+            E sua primeira geração começa em 1944 com computador americano eletromecânico Harvard Mark I, logo depois em 1946 os alemães criam o Colossus que era responsável em fazer cálculos e criptografias e no mesmo e no mesmo ano do Colossus os Estados Unidos lança o ENIAC que era responsável em calcular as rotas dos mísseis. 
+        </p>
+        
+        <p>
+            A curiosidade sobre esse período fica ao surgimento da expressão bug que usamos até o dia de hoje, nessa época os computadores ocupavam enormes salas e era de válvulas, como estes computadores esquentavam muito, atrai os insetos que entravam no equipamento e quebrava, precisando dessa forma de reparos. 
+        </p>
+        
+        <h3>2<sup>a</sup> Geração - 1959 à 1965</h3>
+
+        <p>
+            A segunda geração foi de 1959 a 1965 e foi marcada pela evolução da troca das válvulas pelos transistores. 
+        </p>
+        
+        <h3>3<sup>a</sup> Geração - 1965 à 1970</h3>
+
+        <p>
+            A terceira que foi  de 1965 a 1970 geração foi marcada pelo uso dos circuitos integrados.
+        </p>
+        
+        <ul>
+            <li>Transistores</li>
+            <li>Capacitores</li>
+            <li>Resistores</li>
+        </ul>
+        <h3>4<sup>a</sup> Geração - apartir de 1971</h3>
+        <p>
+            A quarta geração dura até os dias de hoje e começou em 1971 com uso de processadores, chips cada vez menores que permitiram criar não somente os computadores pessoais, mas os dispositivos portáteis. Hoje a maior parte das pessoas conhece a Apple como fabricante do iPhone, mas foi nos anos 70 que a Apple  inventou o primeiro  mouse, muito similar com o que usamos até hoje.
+        </p> 
+        <h3>5<sup>a</sup> Geração - apartir de 1971</h3>
+        <p>
+            Uma das polêmicas que vivemos hoje e se já estamos na quinta geração dos computadores ou ainda na quarta geração, já que algumas pessoas consideram os computadores quânticos, a inteligência artificial e multiverso seria o início dessa nova geração. 
+        </p>
+
+        <h2 id="internet">Internet - Como surgiu</h2>
+        <small><a href="#inicio"><< voltar</a></small>
+
+        <p>
+            Foi apresentado a evolução da internet, mas antes de entrar diretamente no tema internet foi abordado que o primeiro sistema de comunicação foi telégrafo e que 1958 pela primeira vez um cabo atravessou um continente a outro sendo capaz de gerar a comunicação intercontinental. 
+        </p>
+
+        <p>
+            Durante a Guerra Fria em 1950, existia a Darpa (Defense Advenced Research Projects Agency) nos Estados Unidos, nela trabalha Joseph Carl Robnet Licklider que traz a ideia embrionária do que seria a Arpanet. 
+        </p>
+
+        <p>
+            A Arpanet torna-se o primeiro sistema de comunicação de pacotes de dados, com pontos de salvamentos ou “checkpoints” o que podemos considerar que seria o avó dos roteadores. A primeira conexão ocorre em 29 outubro de 1969 entre a University of Carlifornia (UCLA) com Stanford Research Institute (SRI), a transmissão era da palavra login, mas chegou apenas a palavra “lo”.
+        </p>
+
+        <p>
+            A Arpanet ganhar mais corpo após Vinton Cerf e Robert Kahn criarem o protocolo TCP/IP e baseado nesse protocolo Tim Berners-Lee cria o WWW (Wold Wide Web) e em 6 de agosto de 1991 a primeira página da internet vai para o ar no endereço <a href="http://info.cern.ch" target="_blank">http://info.cern.ch</a>
+        </p>
+
+        <ul>
+            <li>Sistema de comunicação em pacotes, enviados um a um e que permitia múltiplos destinos.
+            </li>
+            <li>Estudos sobre nós. Pontos de intersecção de informações funcionando como “checkpoints”. Podemos dizer que é o “avô dos roteadores”.
+            </li>
+        </ul>
+
+        <ul>
+            <li>Primeira conexão estabelecida foi feita em 29/10/1969</li>
+        </ul>
+
+        <ul>
+            <li>Palavra “LOGIN”, mas só chegou “LO” </li>
+        </ul>
+
+        <p>
+            Em 1989, <strong>Tim Berners-Lee</strong> viu a oportunidade de unir hipertexto com TCP/IP e criar a World Wide Web (WWW)
+        </p>
+
+        <p>
+            Primeiro navegador chamado WorldWideWeb
+        </p>
+
+        
+        <h2 id="nomes">Grandes nomes da Tecnologia</h2>
+        <small><a href="#inicio"><< voltar</a></small>
+
+        <p>
+            O primeiro grande destaque nessa história é de <strong>Grace Murray Hopper</strong> que foi uma programadora do Mark I em 1944 e criadora da linguagem Flow-Matic que é a base para a linguagem de programação Cobol. 
+        </p>
+
+        <ul>
+            <li>Marinha dos Estados Unidos</li>
+            <li>Termo “bug” na computação</li>
+        </ul>
+
+        <p>
+            <strong>Joseph Carl Robnett Licklider</strong>, ele foi responsável pela teoria de comunicação entre dois pontos distintos através de computadores de diferentes, sua teoria englobava uma possível “rede galáctica de computadores”.      
+        </p>
+
+        <p>
+            <strong>Já Robert E. Kahn</strong> fez a primeira apresentação pública da Arpanet, do primeiro email e foi o criador do TCP/IP. 
+        </p>
+
+        <p>
+            O inventor do www também ganhou o título de cavaleiro da Inglaterra pela Rainha Elizabeth II, é <strong>Tim Berners-Lee</strong>, é diretor do W3E - Wold Wide Wev Consortion e é um dos responsáveis pela popularização do HTTP e HTML. 
+        </p>
+
+        <p>
+            Enquanto <strong>Marc Andreessen</strong> a partir do Mosaic criou o Netscape Navigator, que possui recursos gráficos e era mais “amigável”. O Netscape até o lançamento do Internet Explorer da Microsoft detinha 90% de todo acesso à internet.
+        </p>
+
+        <p>
+            A Microsoft fundada por <strong>Bill Gates</strong> foi responsável por criar um sistema operacional  Windows, esse sistema operacional era mais intuitivo e a maioria dos computadores por muito tempo já sai de fábrica com esse sistema operacional. E junto com Windows era disponibilizado o navegador Internet Explorer por está presente na maioria dos computadores tornou a internet mais acessível aos usuários de computadores pessoais. 
+        </p>
+
+        <p>
+            Já <strong>Steve Jobs</strong> foi responsável na década 70 pela fabricação dos primeiros computadores pessoais, sendo o responsável por criar o mouse muito parecido com o que usamos hoje e em 29 de julho de 2007 ele lançou o IPhone que populariza o smartphone como conhecemos hoje e uso da internet em dispositivos móveis.
+        </p>
+
+        <h2 id="client">Conceito de Client no “linguajar” web</h2>
+        <small><a href="#inicio"><< voltar</a></small>
+
+        <p>
+            Clients são as pessoas que consomem a informação da internet por meio de algum dispositivo, essas informações são encaminhadas dos servidores ou serves que entre outras coisas hospedam os sites que são acessados. 
+        </p>
+
+        <p>
+            Os serves ao enviar os arquivos de HTML, CSS, JS, imagens e áudio, entre outros para para navegador via cache, assim dessa forma o navegador recodifica os arquivos e exibe na tela do dispositivo.
+        </p>
+
+        <p>
+            Atualmente existe uma diversidade de dispositivos por esse motivo os design de sites e aplicações web procuram ser responsivo ou com responsividade para diferentes resoluções, pensando em entregar um melhor experiência ao usuário.
+        </p>
+
+        <h2 id="navegadores">Falando sobre navegadores</h2>
+        <small><a href="#inicio"><< voltar</a></small>
+
+        <p>
+            Os navegadores ou Browser são aplicativos que são instalados nos dispositivos com objetivo de interpretar os arquivos enviados pelos servidores. A maioria dos navegadores atualmente são gratuitos que seguem os padrões estabelecidos pela W3C. O primeiro navegador foi MOSAIC e o Internet Explore foi durante muito  tempo o navegador mais usado, devido está presente em quase todos os computadores.
+        </p>
+
+        <h2 id="aplicacoes">Aplicações Web</h2>
+        <small><a href="#inicio"><< voltar</a></small>
+
+        <p>
+            Aplicações web são soluções criadas que possuem a internet como meio de comunicação entre Client X Serve sem necessidade de instalação no seu dispositivo. 
+        </p>
+
+        <p>
+            As aplicações web e aplicativos, apesar de possuírem semelhanças possuem uma trilha profissional diferente para os desenvolvedores.  
+        </p>
+
+        <blockquote>
+           <q> Aplicações Web são soluções criadas que possuem a internet como meio de comunicação entre Client x Server não sendo necessário a sua instalação.</q>
+        </blockquote>
+
+        <h2 id="dispositivos">Dispositivos móveis</h2>
+        <small><a href="#inicio"><< voltar</a></small>
+
+        <p>
+            Atualmente 9 em cada 10 latinos americanos possuem ou usam um dispostivo móvel e praticamente 99% ̈fizeram download de algum aplicativo, cada dispositivo em média tem 18 aplicativos instalados.  
+        </p>
+
+        <p>
+            Mais de 60% dos usuários móveis usam aplicativos específicos como Twitter, Linkedin, Spotify e Waze e consideram muito importante para vida cotidiana, mais de um quinto dos usuários de dispositivos móveis passam mais de 20 horas por semana na internet por meio de seus aparelhos. 
+        </p>
+
+        <h2 id="servidores">Sobre Servidores</h2>
+        <small><a href="#inicio"><< voltar</a></small>
+
+        <p>
+            Os servidores podem ser locais onde uma rede de computadores conectados acessam para ter acesso a arquivos e informações ou servidores de internet, onde estão hospedados as informações que os Clients terão acesso.  Os servidores podem ser dos tipos de arquivo, segurança (Firewall), Streaming, E-mail e Web. 
+        </p>
+
+        <h2 id="hardwares">Sobre hardwares e softwares em servidores</h2>
+        <small><a href="#inicio"><< voltar</a></small>
+
+        <p>
+            Os hardwares são componentes físicos que fazem parte da máquina que compõem o servidor como: discos rígidos, memórias e processadores - a configuração de um servidor normalmente é mais robusta que um computador de uso doméstico. 
+        </p>
+
+        <p>
+            Os servidores possuem softwares como sistema operacionais, de monitoramento e entre outros de uso específicos dos serves. 
+        </p>
+
+        <p>
+            Servidor Proxy serve para criar um filtro na rede, principalmente para acesso limitado na internet, podendo ser um servidor com usuário senha.  Segurança interna. 
+        </p>
+
+        <h2 id="tipos">Tipos de servidores</h2>
+        <small><a href="#inicio"><< voltar</a></small>
+
+        <p>
+            Existe uma variedade de servidores, os servidores de Firewall estão correlacionados com a segurança externa e são responsáveis em fazer bloqueio de arquivos e acessos indevidos.
+        </p>
+
+        <p>
+            Já os servidores de Web e E-mail server são responsáveis por armazenar os arquivos de internet e dos emails. Enquanto os servidores de Database são banco de dados responsáveis em armazenar as mais diversas e complexas informações. 
+        </p>
+
+        <p>
+            Quando existe um servidor interno para uso interno sem necessidade de internet este é chamado de servidor intranet. Os servidores Proxy criam um filtro na rede interna, podendo ter forma de acesso por meio de login e senha e geralmente uma das suas utilidades é bloqueio de algum tipo de conteúdo na internet. 
+        </p>
+
+        <p>
+            Enquanto os servidores de DNS (Domain Name Service) que são responsáveis por listar nomes e IPs. 
+        </p>
+
+        <h2 id="hospedagem">Hospedagem de sites</h2>
+        <small><a href="#inicio"><< voltar</a></small>
+
+        <p>
+            O desenvolvedor deve ter conhecimento que a transferência de arquivos ocorrer por meio de File Transfer Protocol - FTP que é um conexão direta com servidor e que usualmente é feita por meio do aplicativo Filezilla. O acesso ao servidor é dado pelo provedor de hospedagem. 
+        </p>
+      
+        <h2 id="linguagem">O que é linguagem de programação</h2>
+        <small><a href="#inicio"><< voltar</a></small>
+       
+       <p>
+            Por definição, a linguagem de programação é um linguagem escrita e formal que especifica um conjunto de instruções e regras usada para gerar programas (softwares).
+
+            Em janeiro de 2022 foi divulgado pela Red Monk as linguagens de programação mais populares, sendo JavaScript, Python, Java, PHP e C#.
+
+       </p>
+       
+       <h2 id="linguagem_server">Linguagem Server-side</h2>
+       <small><a href="#inicio"><< voltar</a></small>
+
+       <p>
+            As linguagens de programação mais usadas para software destinados aos servidores são PHP, C#, Java, JavaScript por meio da contribuição do NodeJS e Ruby. 
+       </p>
+
+
+       <h2 id="linguagem_client">Linguagem Client-side</h2>
+       <small><a href="#inicio"><< voltar</a></small>
+
+       <p>
+            Segundo o instrutor do curso a linguagem mais usada no campo do Client é JavaScript, importante que o JS usado ao lado do cliente tem a assistência do módulo V8, onde você pode saber mais do que se trata acessando o site www.v8.dev
+       </p>
+
+
+       <h2 id="html">Afinal, HTML é linguagem de programação?</h2>
+       <small><a href="#inicio"><< voltar</a></small>
+
+       <p>
+            O HTML apesar de muitas pessoas acharem que se trata de uma linguagem de programação ele é uma linguagem de marcação de hipertexto que trabalha com delimitadores de comportamento que chamamos de tags. 
+       </p>
+
+       <p>
+            Apesar do HTML não ser uma linguagem de programação ele é extremamente importante para o desenvolvimento web, já que trata-se da estrutura de todo desenvolvimento.
+       </p>
+
+       <hr>
+
+    <p>
+        <a href="../index.html"><< Voltar para a página principal</a>
+    </p>
+
+    </body>
+</html>
